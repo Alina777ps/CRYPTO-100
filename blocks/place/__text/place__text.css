@@ -1,0 +1,15 @@
+.place__text {
+    margin: 0;
+    padding: 0;
+    grid-area: text;
+}
+
+.place__text :last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 460px) {
+    .place__text {
+        padding: 0 16px;
+    }
+}
