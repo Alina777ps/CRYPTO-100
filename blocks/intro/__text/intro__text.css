@@ -1,12 +1,44 @@
 .intro__text {
-    max-width: 690px;
-    margin: 0;
+    margin: 0 0 27px;
     padding: 0;
-    font-family: "Inter", "Arial", "sans-serif";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.63;
+    color: rgb(255, 255, 255);
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    /*line-height: 0px;*/
     text-align: left;
-    color: #FFFFFF;
+    letter-spacing: 0px;
 }
+
+@media screen and (max-width: 1600px) {
+    .intro__text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .intro__text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .intro__text {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .intro__text {
+        font-size: 10px;
+        margin: 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro__text {
+        font-size: 15px;
+        margin: 0 0 20px;
+    }
+}
+

@@ -1,0 +1,37 @@
+.header__button_span {
+    text-align: center;
+    background-clip: text;
+    background-image: linear-gradient(#5A2FED, #8F00FF);
+    color: transparent;
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 1800px) {
+    .header__button_span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .header__button_span {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+@media screen and (max-width: 1450px) {
+    .header__button_span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header__button_span {
+        font-size: 7px;
+    }
+}
+

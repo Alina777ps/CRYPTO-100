@@ -1,0 +1,27 @@
+.footer__link-icon {
+    margin: 9px 0 0;
+    padding: 0;
+    width: 49px;
+    height: 49px;
+    cursor: pointer;
+}
+
+.footer__link-icon:hover {
+    opacity: 0.8;
+    transition: opaity .3s ease;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer__link-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .footer__link-icon {
+        width: 30px;
+        height: 30px;
+        margin: 0;
+    }
+}

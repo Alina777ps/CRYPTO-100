@@ -1,0 +1,7 @@
+.page__decor_2 {
+    position: absolute;
+    top: 2%;
+    right: -30%;
+    z-index: -1;
+    background-size: cover;
+}

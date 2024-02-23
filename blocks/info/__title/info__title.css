@@ -1,0 +1,37 @@
+.info__title {
+    /*width: 665px;
+    height: 165px;*/
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 127%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0 0 20px;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1900px) {
+    .info__title {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .info__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .info__title {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .info__title {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+.info__rectangle {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 9px;
+    width: 55%;
+    max-height: 65px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(69.99px);
+    background: linear-gradient(147.34deg, rgba(255, 255, 255, 0.2) 4.286%,rgba(255, 255, 255, 0.02) 56.368%);
+}
+
+@media screen and (max-width: 1300px) {
+    .info__rectangle {
+        max-height: 55px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .info__rectangle {
+        max-height: 45px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .info__rectangle {
+        max-height: 35px;
+        padding: 5px;
+    }
+}

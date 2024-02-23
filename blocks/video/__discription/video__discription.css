@@ -1,0 +1,14 @@
+.video__discription {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+    .video__discription {
+        gap: 20px;
+    }
+}

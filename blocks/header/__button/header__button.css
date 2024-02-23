@@ -1,0 +1,52 @@
+.header__button {
+    width: 235px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+    background: 
+        linear-gradient(#201c2d 0 0) padding-box, /*this is background*/
+        linear-gradient(#5A2FED, #8F00FF) border-box;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__button:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 1800px) {
+    .header__button {
+        width: 200px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .header__button {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header__button {
+        height: 35px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header__button {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__button {
+        width: 30%;
+        height: 25px;
+    }
+}

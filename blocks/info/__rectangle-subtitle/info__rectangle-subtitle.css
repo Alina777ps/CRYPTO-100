@@ -1,0 +1,35 @@
+.info__rectangle-subtitle {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+@media screen and (max-width: 1600px) {
+    .info__rectangle-subtitle {
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .info__rectangle-subtitle {
+        font-size: 7px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .info__rectangle-subtitle {
+        font-size: 5px;
+        line-height: 6px;
+    }
+}
+
+
+
+

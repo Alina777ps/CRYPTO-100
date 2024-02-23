@@ -1,0 +1,15 @@
+.form__widht-200 {
+    width: 200px;
+}
+
+@media screen and (max-width: 1600px) {
+    .form__widht-200 {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .form__widht-200 {
+        width: 100px;
+    }
+}

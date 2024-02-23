@@ -1,0 +1,44 @@
+.video__title {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 119%;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #12C2E9,#C471ED, #F64F59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    }
+
+    @media screen and (max-width: 1600px) {
+        .video__title {
+            font-size: 50px;
+        }
+    }
+
+    @media screen and (max-width: 1250px) {
+        .video__title {
+            font-size: 35px;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .video__title {
+            writing-mode:horizontal-tb;
+            transform: scale(1);
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .video__title {
+            font-size: 25px;
+        }
+    }

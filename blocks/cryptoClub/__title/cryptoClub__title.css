@@ -1,0 +1,47 @@
+.cryptoClub__title {
+    margin: 0;
+    margin-bottom: 21px;
+    padding: 0;
+    background: linear-gradient(90.00deg, rgb(18, 194, 233),rgb(196, 113, 237),rgb(246, 79, 89));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 180px;
+    font-weight: 700;
+    line-height: 127%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 1850px) {
+    .cryptoClub__title {
+        font-size: 150px;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .cryptoClub__title {
+        font-size: 110px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .cryptoClub__title {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cryptoClub__title {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cryptoClub__title {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,40 @@
+.intro__creatCoinText {
+    margin: 0 0 50px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px;
+    
+}
+
+@media screen and (max-width: 1500px) {
+    .intro__creatCoinText {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .intro__creatCoinText {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .intro__creatCoinText {
+        font-size: 9px;
+        line-height: 11px;
+        margin: 0 0 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .intro__creatCoinText {
+        font-size: 7px;
+        line-height: 11px;
+        margin: 0 0 30px;
+    }
+}

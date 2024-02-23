@@ -1,0 +1,10 @@
+.crypto100__info {
+    width: 70%;
+    max-width: 840px;
+}
+
+@media screen and (max-width: 550px) {
+    .crypto100__info {
+        width: 100%;
+    }
+}

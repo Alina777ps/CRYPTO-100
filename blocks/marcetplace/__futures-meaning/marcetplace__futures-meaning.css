@@ -1,0 +1,15 @@
+.marcetplace__futures-meaning {
+    margin: 0;
+    padding: 0;
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16.51px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1500px) {
+    .marcetplace__futures-meaning {
+        font-size: 11px;
+    }
+}

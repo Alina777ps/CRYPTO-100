@@ -1,0 +1,14 @@
+.marcetplace__choice {
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.86px;
+    color: #9399A4;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .marcetplace__choice {
+        font-size: 15px;
+    }
+}

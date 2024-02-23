@@ -1,0 +1,13 @@
+.marcetplace__btns-right {
+    margin: 0;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: 
+        linear-gradient(#201c2d 0 0) padding-box, /*this is background*/
+        linear-gradient(#FC00FF, #00DBDE) border-box;
+    border: 1px solid transparent;
+    cursor: pointer;
+}

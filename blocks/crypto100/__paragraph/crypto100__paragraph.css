@@ -1,0 +1,9 @@
+.crypto100__paragraph {
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.crypto100__paragraph:last-child {
+    margin-bottom: 0;
+}
+

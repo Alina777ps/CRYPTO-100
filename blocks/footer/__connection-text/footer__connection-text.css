@@ -1,0 +1,32 @@
+.footer__connection-text {
+    margin: 0 0 53px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 33.53px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1800px) {
+    .footer__connection-text {
+        font-size: 17px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .footer__connection-text {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .footer__connection-text {
+        font-size: 11px;
+        line-height: 15px;
+    }
+}

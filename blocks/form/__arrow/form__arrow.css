@@ -1,0 +1,16 @@
+.form__arrow {
+    width: 12px;
+    height: 8px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    display: inline-block;
+    /*position: absolute;
+    top: 1px;
+    right: 3px;*/
+    background: url("/images/icon_navigation_arrow.svg") right / 90% no-repeat;
+    pointer-events: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    right: 13px;
+    }

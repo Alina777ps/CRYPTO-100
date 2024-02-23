@@ -1,0 +1,30 @@
+.cryptoClub__buttonCrypto {
+    margin: 0;
+    padding: 0;
+    width: 79%;
+    height: 73px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 20px 0px rgba(87, 142, 233, 0.4);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 0px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1450px) {
+    .cryptoClub__buttonCrypto {
+        font-size: 18px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .cryptoClub__buttonCrypto {
+        font-size: 15px;
+        height: 45px;
+    }
+}

@@ -1,0 +1,20 @@
+.video {
+    margin: 0;
+    padding: 64px 16%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+    .video {
+        padding: 64px 12%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .video {
+        padding: 64px 7%;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}

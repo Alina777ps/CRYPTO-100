@@ -1,15 +1,18 @@
 .footer__links {
     margin: 0;
     padding: 0;
-    display: flex;
-    gap: 18px;
     list-style-type: none;
+    cursor: pointer;
+}
+
+.footer__links:hover {
+    opacity: 0.8;
+    transition: opaity .3s ease;
 }
 
 @media screen and (max-width: 660px) {
     .footer__links {
-        gap: 32px;
-        flex-direction: column;
+        
     }
 }
 

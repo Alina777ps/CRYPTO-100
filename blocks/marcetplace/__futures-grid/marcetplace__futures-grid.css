@@ -1,0 +1,31 @@
+.marcetplace__futures-grid {
+    margin: 0 0 43px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1700px) {
+    .marcetplace__futures-grid {
+        gap: 15px;
+    }
+}
+
+
+@media screen and (max-width: 1230px) {
+    .marcetplace__futures-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .marcetplace__futures-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+
+    }
+}

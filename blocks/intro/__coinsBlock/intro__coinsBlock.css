@@ -1,0 +1,8 @@
+.intro__coinsBlock {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns:repeat(5, max-content);
+    gap: 0;
+    width: 100%;
+}

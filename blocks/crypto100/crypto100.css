@@ -1,0 +1,17 @@
+.crypto100 {
+    margin: 0;
+    padding: 40px 16% 64px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .crypto100 {
+        padding: 40px 12% 64px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .crypto100 {
+        padding: 40px 7% 64px;
+    }
+}

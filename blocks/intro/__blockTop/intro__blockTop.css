@@ -1,0 +1,23 @@
+.intro__blockTop {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .intro__blockTop {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro__blockTop {
+        display: grid;
+        grid-template-areas:
+            "info info"
+            "women bitcoin";
+    }
+}

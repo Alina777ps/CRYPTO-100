@@ -1,0 +1,19 @@
+.info__rectangle-img {
+    margin: 0;
+    margin-right: 22px;
+    padding: 0;
+    width: 17%;
+    height: auto;
+}
+
+@media screen and (max-width: 1300px) {
+    .info__rectangle-img {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .info__rectangle-img {
+        margin-right: 10px;
+    }
+}

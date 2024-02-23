@@ -1,0 +1,18 @@
+.marcetplace {
+    margin: 0;
+    padding: 40px 16%;
+    position: relative;
+  
+}
+
+@media screen and (max-width: 1200px) {
+    .marcetplace {
+        padding: 40px 12%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .marcetplace {
+        padding: 40px 7%;
+    }
+}

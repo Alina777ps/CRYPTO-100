@@ -1,0 +1,49 @@
+.logo__logoSubtitle {
+    margin: 0;
+    padding: 0;
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 69.3px;
+    font-weight: 500;
+    line-height: 100px;
+    letter-spacing: 1%;
+    background: linear-gradient(90.00deg, #21FCFF,#FD40FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1750px) {
+    .logo__logoSubtitle {
+        font-size: 50px;
+        line-height: 80px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .logo__logoSubtitle {
+        font-size: 40px;
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .logo__logoSubtitle {
+        font-size: 30px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .logo__logoSubtitle {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo__logoSubtitle {
+        font-size: 10px;
+        line-height: 25px;
+    }
+}

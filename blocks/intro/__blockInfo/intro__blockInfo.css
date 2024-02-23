@@ -1,0 +1,11 @@
+.intro__blockInfo {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .intro__blockInfo {
+        grid-area: info;
+    }
+}

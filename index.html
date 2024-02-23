@@ -8,132 +8,725 @@
 </head>
 <body class="page">
   <div class="page__container">
+    <img class="page__decor_1" src="./images/Decor1.png" alt="Декор">
+    <img class="page__decor_2" src="./images/Decor2.png" alt="Декор">
     <header class="header">
-      <img class="header__logo" src="./images/header-logo.svg" alt="Россия">
-      <ul class="header__lang-links">
-        <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
-        <li><a class="header__lang-link" href="#">En</a></li>
+      <a class="header__logo-link" href="#" target="_blank">
+        <h1 class="header__logo-title">HUBUS&nbsp;&&nbsp;CO</h1>
+        <img class="header__logo-img" src="./images/logoImg.svg" alt="Логотип">
+      </a>
+      <ul class="header__links">
+        <li><a class="header__link" href="">Hedge&nbsp;Fund</a></li>
+        <li><img class="header__star" src="./images/Star.svg" alt="Звезда"></li>
+        <li><a class="header__link" href="#" target="_blank">МаркетМейкер</a></li>
+        <li><img class="header__star" src="./images/Star.svg" alt="Звезда"></li>
+        <li><a class="header__link" href="#" target="_blank">Монеты</a></li>
+        <li><img class="header__star" src="./images/Star.svg" alt="Звезда"></li>
+        <li><a class="header__link" href="#" target="_blank">Офисы</a></li>
       </ul>
+      <ul class="header__lang-links">
+        <li>
+          <div class="header__lang-line">
+            <a class="header__lang-link" href="#">ENG</a>
+          </div>
+        </li>
+        <li>
+          <div class="header__lang-noLine">
+            <a class="header__lang-link header__lang-link_active" href="#">RUS</a>
+          </div>
+        </li>
+      </ul>
+      <button class="header__button" type="button" aria-label="Создать связь">
+        <span class="header__button_span">Создать связь</span>
+      </button>
+      <button class="header__hamburgerButton" type="button" aria-label="Открыть">
+        <img class="header__hamburgerButton-img" src="./images/hamburgerButton.svg" alt="Открыть меню">
+      </button> 
     </header>
     <main class="content">
-      <section class="lead">
-        <h1 class="lead__title">Путешествия по России</h1>
-        <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей,&nbsp;а&nbsp;здесь.</p>
-        <figure class="lead__figure">
-          <img class="lead__image" src="./images/lead-polka.jpg" alt="Калегин Михаил">
-          <figcaption class="lead__caption">ваша полка&nbsp;&mdash; верхняя</figcaption>
-        </figure>
+      <section class="info">
+        <div class="info__block">
+        <h2 class="info__title">Активы всех криптовалют<br>
+          <span class="span__fontWeight">$ 3 383 489 201 313</span>
+          <span class="info__title_gradient">Управляем ростом и падением</span>
+        </h2>
+        <p class="info__subtitle">Исследуем, создаем и инвестируем</p>
+        <button class="info__button" type="button" aria-label="Получить ключ">Получить ключ</button>
+        <div class="info__features">
+          <div class="info__list">
+            <p class="info__index">224</p>
+            <p class="info__text">Монет в портфеле Фонда</p>
+          </div>
+          <div class="info__list">
+            <p class="info__index">431K +</p>
+            <p class="info__text">Транзакций</p>
+          </div>
+          <div class="info__list">
+            <p class="info__index">17M +</p>
+            <p class="info__text">Транзакций ИИ трейдингом</p>
+          </div>
+        </div>
+        <div class="info__coins">
+          <img class="info__coin" src="./images/coins1.png" alt="Монета">
+          <img class="info__coin" src="./images/coins2.png" alt="Монета">
+          <img class="info__coin" src="./images/coins3.png" alt="Монета">
+          <img class="info__coin" src="./images/coins4.png" alt="Монета">
+          <img class="info__coin" src="./images/coins5.png" alt="Монета">
+          <img class="info__coin" src="./images/coins6.png" alt="Монета">
+          <img class="info__coin" src="./images/coins7.png" alt="Монета">
+          <img class="info__coin" src="./images/coins8.png" alt="Монета">
+          <img class="info__coin" src="./images/coins9.png" alt="Монета">
+          <img class="info__coin" src="./images/coins10.png" alt="Монета">
+        </div>
+      </div>
+      <div class="info__block-img">
+        <img class="info__planet" src="./images/planet.png" alt="Планета">
+        <div class="info__rectangle info__rectangle_monetarization">
+            <img class="info__rectangle-img" src="./images/monetarization.svg" alt="Монетаризация">
+          <div class="info__rectangle-text">
+            <h3 class="info__rectangle-title">Монетаризация</h3>
+            <p class="info__rectangle-subtitle">Token and Coin</p>
+          </div>
+        </div>
+        <div class="info__rectangle info__rectangle_available">
+            <img class="info__rectangle-img" src="./images/available.svg" alt="Доступно">
+          <div class="info__rectangle-text">
+            <h3 class="info__rectangle-title">Доступно</h3>
+            <p class="info__rectangle-subtitle">В любой точке мира</p>
+          </div>
+        </div>
+        <div class="info__rectangle info__rectangle_technologies">
+            <img class="info__rectangle-img info__rectangle-img_technologies" src="./images/technologies.svg" alt="Технологии">
+          <div class="info__rectangle-text">
+            <h3 class="info__rectangle-title">Технологии</h3>
+            <p class="info__rectangle-subtitle">Blockchain, dAPP</p>
+          </div>
+        </div>
+      </div>
       </section>
       <section class="intro">
-        <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
-        <p class="intro__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно без миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как, например, Вера Башмакова&nbsp;&mdash; смелая молодая мама, которая взяла в&nbsp;охапку троих детей, усадила их&nbsp;в&nbsp;свою &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
-        <ul class="intro__list">
-          <li>Часовых поясов <span class="intro__number">11</span></li>
-          <li>Объектов природного наследия ЮНЕСКО <span class="intro__number">12</span></li>
-          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__number">16</span></li>
-          <li>Природных заповедников <span class="intro__number">105</span></li>
-          <li>Аэропортов <span class="intro__number">241</span></li>
-        </ul>
+        <div class="intro__blockTop">
+          <div class="intro__blockInfo">
+            <h2 class="intro__title">CRYPTO 100</h2>
+            <p class="intro__text">
+              <span class="span__fontWeight">
+                Самые эффективные криптотокены и криптомонеты, 
+              </span>
+              с высоким потенциалом ликвидности,
+              <span class="span__fontWeight">которые будут расти</span>
+            </p>
+            <div class="intro__coinsBlock">
+              <img class="intro__coins" src="./images/coins1.png" alt="Монета">
+              <img class="intro__coins" src="./images/coins2.png" alt="Монета">
+              <img class="intro__coins" src="./images/coins3.png" alt="Монета">
+              <img class="intro__coins" src="./images/coins4.png" alt="Монета">
+              <img class="intro__coins" src="./images/coins5.png" alt="Монета">
+              <img class="intro__coins" src="./images/coins6.png" alt="Монета">
+              <img class="intro__coins" src="./images/coins7.png" alt="Монета">
+              <img class="intro__coins" src="./images/coins8.png" alt="Монета">
+              <img class="intro__coins" src="./images/coins9.png" alt="Монета">
+              <img class="intro__coins" src="./images/coins10.png" alt="Монета">
+            </div>
+          </div>
+            <img class="intro__faceWomen" src="./images/face.png" alt="Лицо">
+          <div class="intro__blockBitcoin">
+            <img class="intro__bitcoinBlue" src="./images/bitcoinBlue.png" alt="Биткоин">
+            <img class="intro__bitcoinPink" src="./images/bitcoinPink.png" alt="Биткоин">
+          </div>
+        </div>
+        <div class="intro__blockBotton">
+          <div class="intro__blockTeam">
+            <p class="intro__teamTitle">Познакомьтесь 
+              <span class="span__fontWeight">с нашей</span><br> командой</p>
+            <div class="intro__teamList">
+              <div class="intro__teamNumber">17</div>
+              <div class="intro__teamFoto">
+                <img class="intro__teamImg" src="./images/fotoTeam.png" alt="Фото">
+              </div>
+            </div>
+          </div>
+          <div class="intro__blockCreatCoin">
+            <h3 class="intro__creatCoinTitle">Создать 
+              <span class="intro__creatCoinTitle__span">Криптомонету
+              </span>
+            </h3>
+            <p class="intro__creatCoinText">
+              Если уже есть криптотокен или криптомонета с уникальным фундаментом для интереса инвесторов! 
+              Мы открыты к новым командам.
+            </p>
+            <div class="intro__creatCoinButton">
+              <button class="intro__creatCoinButton_token" type="button" aria-label="У меня есть токен">У меня есть 
+                <span class="span__fontWeight">токен</span></button>
+              <button class="intro__creatCoinButton_connection" type="button" aria-label="Установить связь">
+                <span class="span__fontWeight">Установить </span>
+                связь</button>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="photo-grid">
-        <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Поезд">
-        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Атарва Тулси">
-        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Туман">
-        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Сочи">
-        <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Ариса">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Байкал">
-        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Эльбрус">
-        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Кондратьев">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Каматка">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Байкал">
-        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Эрдаки">
+      <section class="cryptoClub">
+        <!--<img class="cryptoClub__decor" src="" alt="Декор">-->
+        <h2 class="cryptoClub__title">crypto 100 club</h2>
+        <div class="cryptoClub__blockTop">
+          <h3 class="cryptoClub__subtitle">СООБЩЕСТВО
+            <span class="span__fontWeight">ИЗБРАННЫХ</span>
+          </h3>
+          <img class="cryptoClub__video" src="./images/video.png" alt="Видео">
+        </div>
+        <div class="cryptoClub__buttons">
+          <button class="cryptoClub__buttonJoin" type="button" aria-label="вступить">Вступить 
+            <span class="span__fontWeight">в клуб</span>
+          </button>
+          <div class="cryptoClub__crypto">
+            <button class="cryptoClub__buttonCrypto" type="button" aria-label="CRYPTO 500">
+              <span class="span__fontWeight">CRYPTO </span>500</button>
+            <button class="cryptoClub__buttonArrow" type="button" aria-label="Стрелка">
+              <img class="cryptoClub__arrow" src="./images/arrow.png" alt="Стрелка">
+            </button>
+          </div>
+        </div>
       </section>
-      <section class="places">
-        <article class="place">
-          <h2 class="place__title">Куршская коса</h2>
-          <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
-          <div class="place__website">
-            <p class="place__url-heading">url</p>
-            <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+      <section class="marcetplace">
+        <img class="marcetplace__decor_pink" src="./images/DecorMarcetplacePink.png" alt="Декор">
+        <h2 class="marcetplace__title">Маркетплейс ботов</h2>
+        <nav>
+          <ul class="marcetplace__nav">
+            <li>
+              <div class="marcetplace__band">
+                <a class="marcetplace__choice" href="#">Сетка спота</a>
+              </div>
+            </li>
+            <li>
+              <div class="marcetplace__band marcetplace__band_active">
+                <a class="marcetplace__choice marcetplace__choice_active" href="#">Сетка фьючерсов</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <form class="form">
+          <fieldset class="form__fieldset">
+            <div class="form__frame form__widht-200">
+              <label class="form__label" for="market">Рынок:&nbsp;</label>
+              <select class="form__select form__widht-200" name="market" id="market">
+                <option selected class="form__option" value="all">Все</option>
+              </select>
+              <div class="form__arrow"></div>
+            </div>
+            <div class="form__frame form__widht-200">
+              <label class="form__label" for="directions">Направления:&nbsp;</label>
+              <select class="form__select form__widht-200" name="directions" id="directions">
+                <option selected class="form__option" value="all">Все</option>
+              </select>
+              <div class="form__arrow"></div>
+            </div>
+            <div class="form__frame form__widht-200">
+              <label class="form__label" for="time">Время&nbsp;выполнения</label>
+              <select class="form__select form__widht-200" name="time" id="time">
+                <!--<option selected class="form__option" value=""></option>-->
+              </select>
+              <div class="form__arrow"></div>
+            </div>
+            <div class="form__frame form__widht-130">
+              <label class="form__label" for="ROI">ROI:&nbsp;</label>
+              <select class="form__select form__widht-130" name="ROI" id="ROI">
+                <option selected class="form__option" value="all">Все</option>
+              </select>
+              <div class="form__arrow"></div>
+            </div>
+            <div class="form__frame form__widht-130">
+              <label class="form__label" for="zone">Зона:&nbsp;</label>
+              <select class="form__select form__widht-130" name="zone" id="zone">
+                <option selected class="form__option" value="all">Все</option>
+              </select>
+              <div class="form__arrow"></div>
+            </div>
+            <div class="form__topRIO">
+              <div class="form__withoutFrame form__widht-130">
+                <label class="form__label" for="zone">ТОП&nbsp;по&nbsp;ROI</label>
+                <select class="form__select form__widht-130" name="topRIO" id="topRIO">
+                  <!--<option selected class="form__option" value=""></option>-->
+                </select>
+                <div class="form__arrow"></div>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+        <div class="marcetplace__futures-grid">
+          <div class="marcetplace__futures">
+            <div class="marcetplace__futures-top">
+              <h3 class="marcetplace__futures-title">Umausdt Бессрочный</h3>
+              <div class="marcetplace__futures-counter">
+                <img class="marcetplace__futures-icon" src="./images/peopleIcon.svg" alt="Количество человек">
+                <span class="marcetplace__futures-number">249</span>
+              </div>
+            </div>
+              <div class="marcetplace__futures-subtitle">
+                <div class="marcetplace__futures-rectangle">Сетка фьючерсов</div>
+                <div class="marcetplace__futures-rectangle">Нейтральное</div>
+              </div>
+            <div class="marcetplace__futures-columns">
+              <div class="marcetplace__futures-column-left">
+                <div>
+                  <h4 class="marcetplace__futures-index">ROI</h4>
+                  <p class="marcetplace__futures-meaning-ROI">299.23%</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">PhL (USD)</h4>
+                  <p class="marcetplace__futures-meaning">$299.23</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">Мин. сумма инвестиций</h4>
+                  <p class="marcetplace__futures-meaning">118,39 USDT</p>
+                </div>
+              </div>
+              <div class="marcetplace__futures-column-right">
+                <img class="marcetplace__futures-diagram" src="./images/diagram1.png" alt="Диаграмма">
+                <div class="marcetplace__futures-text-right">
+                  <h4 class="marcetplace__futures-index">Продолжительность</h4>
+                  <p class="marcetplace__futures-meaning">2 дн 18ч 52 мин</p>
+                </div>
+                <button class="marcetplace__futures-button">Создать</button>
+              </div>
+            </div>
           </div>
-          <div class="place__text">
-            <p class="place__paragraph">Здесь, посреди лесов и&nbsp;песчаных дюн, вы&nbsp;сможете увидеть два водных горизонта&nbsp;&mdash; спокойного Куршского залива с&nbsp;одной стороны и&nbsp;подёрнутого рябью волн Балтийского моря с&nbsp;другой. Уникальная природная зона на&nbsp;краю российского анклава.</p>
-            <p class="place__paragraph">На&nbsp;этом Калининградская область не&nbsp;заканчивается. Для&nbsp;путешественника и&nbsp;исследователя там&nbsp;же по&nbsp;соседству&nbsp;&mdash; самая западная точка России, Балтийская коса,&nbsp;&mdash; и&nbsp;немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы и&nbsp;запах стального, прохладного моря.</p>
+          <div class="marcetplace__futures">
+            <div class="marcetplace__futures-top">
+              <h3 class="marcetplace__futures-title">Umausdt Бессрочный</h3>
+              <div class="marcetplace__futures-counter">
+                <img class="marcetplace__futures-icon" src="./images/peopleIcon.svg" alt="Количество человек">
+                <span class="marcetplace__futures-number">249</span>
+              </div>
+            </div>
+              <div class="marcetplace__futures-subtitle">
+                <div class="marcetplace__futures-rectangle">Сетка фьючерсов</div>
+                <div class="marcetplace__futures-rectangle">Нейтральное</div>
+              </div>
+            <div class="marcetplace__futures-columns">
+              <div class="marcetplace__futures-column-left">
+                <div>
+                  <h4 class="marcetplace__futures-index">ROI</h4>
+                  <p class="marcetplace__futures-meaning-ROI">299.23%</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">PhL (USD)</h4>
+                  <p class="marcetplace__futures-meaning">$299.23</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">Мин. сумма инвестиций</h4>
+                  <p class="marcetplace__futures-meaning">118,39 USDT</p>
+                </div>
+              </div>
+              <div class="marcetplace__futures-column-right">
+                <img class="marcetplace__futures-diagram" src="./images/diagram2.png" alt="Диаграмма">
+                <div class="marcetplace__futures-text-right">
+                  <h4 class="marcetplace__futures-index">Продолжительность</h4>
+                  <p class="marcetplace__futures-meaning">2 дн 18ч 52 мин</p>
+                </div>
+                <button class="marcetplace__futures-button">Создать</button>
+              </div>
+            </div>
           </div>
-        </article>
-        <article class="place">
-          <h2 class="place__title">Кольский</h2>
-          <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский">
-          <div class="place__website">
-            <p class="place__url-heading">url</p>
-            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
+          <div class="marcetplace__futures">
+            <div class="marcetplace__futures-top">
+              <h3 class="marcetplace__futures-title">Umausdt Бессрочный</h3>
+              <div class="marcetplace__futures-counter">
+                <img class="marcetplace__futures-icon" src="./images/peopleIcon.svg" alt="Количество человек">
+                <span class="marcetplace__futures-number">249</span>
+              </div>
+            </div>
+              <div class="marcetplace__futures-subtitle">
+                <div class="marcetplace__futures-rectangle">Сетка фьючерсов</div>
+                <div class="marcetplace__futures-rectangle">Нейтральное</div>
+              </div>
+            <div class="marcetplace__futures-columns">
+              <div class="marcetplace__futures-column-left">
+                <div>
+                  <h4 class="marcetplace__futures-index">ROI</h4>
+                  <p class="marcetplace__futures-meaning-ROI">299.23%</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">PhL (USD)</h4>
+                  <p class="marcetplace__futures-meaning">$299.23</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">Мин. сумма инвестиций</h4>
+                  <p class="marcetplace__futures-meaning">118,39 USDT</p>
+                </div>
+              </div>
+              <div class="marcetplace__futures-column-right">
+                <img class="marcetplace__futures-diagram" src="./images/diagram3.png" alt="Диаграмма">
+                <div class="marcetplace__futures-text-right">
+                  <h4 class="marcetplace__futures-index">Продолжительность</h4>
+                  <p class="marcetplace__futures-meaning">2 дн 18ч 52 мин</p>
+                </div>
+                <button class="marcetplace__futures-button">Создать</button>
+              </div>
+            </div>
           </div>
-          <div class="place__text">
-            <p class="place__paragraph">Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская тундра, от&nbsp;которой на&nbsp;юг&nbsp;&mdash; 
-            тайга, а&nbsp;на&nbsp;север&nbsp;&mdash; Ледовитый океан, прикидывающийся Баренцевым морем.</p>
-            <p class="place__paragraph">Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали историю арктического фестиваля в&nbsp;Териберке. Возможно, слово &laquo;Хибины&raquo; не&nbsp;осталось под снегом школьных воспоминаний об&nbsp;уроках географии. Возможно, вы&nbsp;не интересовались пронизывающей земную кору сверхглубокой скважиной, а&nbsp;от&nbsp;апатитов вас давно накрывает апатия. Но&nbsp;ваша мечта увидеть северное сияние начинает сбываться с&nbsp;билетом
-            в&nbsp;Мурманск.</p>
+          <div class="marcetplace__futures">
+            <div class="marcetplace__futures-top">
+              <h3 class="marcetplace__futures-title">Umausdt Бессрочный</h3>
+              <div class="marcetplace__futures-counter">
+                <img class="marcetplace__futures-icon" src="./images/peopleIcon.svg" alt="Количество человек">
+                <span class="marcetplace__futures-number">249</span>
+              </div>
+            </div>
+              <div class="marcetplace__futures-subtitle">
+                <div class="marcetplace__futures-rectangle">Сетка фьючерсов</div>
+                <div class="marcetplace__futures-rectangle">Нейтральное</div>
+              </div>
+            <div class="marcetplace__futures-columns">
+              <div class="marcetplace__futures-column-left">
+                <div>
+                  <h4 class="marcetplace__futures-index">ROI</h4>
+                  <p class="marcetplace__futures-meaning-ROI">299.23%</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">PhL (USD)</h4>
+                  <p class="marcetplace__futures-meaning">$299.23</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">Мин. сумма инвестиций</h4>
+                  <p class="marcetplace__futures-meaning">118,39 USDT</p>
+                </div>
+              </div>
+              <div class="marcetplace__futures-column-right">
+                <img class="marcetplace__futures-diagram" src="./images/diagram4.png" alt="Диаграмма">
+                <div class="marcetplace__futures-text-right">
+                  <h4 class="marcetplace__futures-index">Продолжительность</h4>
+                  <p class="marcetplace__futures-meaning">2 дн 18ч 52 мин</p>
+                </div>
+                <button class="marcetplace__futures-button">Создать</button>
+              </div>
+            </div>
           </div>
-        </article>
-        <article class="place">
-          <h2 class="place__title">Алтай</h2>
-          <img class="place__image" src="./images/place-altai.jpg" alt="Алтай">
-          <div class="place__website">
-            <p class="place__url-heading">url</p>
-            <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
+          <div class="marcetplace__futures">
+            <div class="marcetplace__futures-top">
+              <h3 class="marcetplace__futures-title">Umausdt Бессрочный</h3>
+              <div class="marcetplace__futures-counter">
+                <img class="marcetplace__futures-icon" src="./images/peopleIcon.svg" alt="Количество человек">
+                <span class="marcetplace__futures-number">249</span>
+              </div>
+            </div>
+              <div class="marcetplace__futures-subtitle">
+                <div class="marcetplace__futures-rectangle">Сетка фьючерсов</div>
+                <div class="marcetplace__futures-rectangle">Нейтральное</div>
+              </div>
+            <div class="marcetplace__futures-columns">
+              <div class="marcetplace__futures-column-left">
+                <div>
+                  <h4 class="marcetplace__futures-index">ROI</h4>
+                  <p class="marcetplace__futures-meaning-ROI">299.23%</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">PhL (USD)</h4>
+                  <p class="marcetplace__futures-meaning">$299.23</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">Мин. сумма инвестиций</h4>
+                  <p class="marcetplace__futures-meaning">118,39 USDT</p>
+                </div>
+              </div>
+              <div class="marcetplace__futures-column-right">
+                <img class="marcetplace__futures-diagram" src="./images/diagram5.png" alt="Диаграмма">
+                <div class="marcetplace__futures-text-right">
+                  <h4 class="marcetplace__futures-index">Продолжительность</h4>
+                  <p class="marcetplace__futures-meaning">2 дн 18ч 52 мин</p>
+                </div>
+                <button class="marcetplace__futures-button">Создать</button>
+              </div>
+            </div>
           </div>
-          <div class="place__text">
-            <p class="place__paragraph">Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России. 
-            В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы&nbsp;увидите склоны, усыпанные соснами, горные реки и&nbsp;озёра. А&nbsp;если вы&nbsp;откроете в&nbsp;автомобиле окна, сможете познакомиться с&nbsp;невидимым чудом здешних мест&nbsp;&mdash; горным воздухом.</p>
-            <p class="place__paragraph">Климат на&nbsp;Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы&nbsp;увидите всё разнообразие местной флоры и&nbsp;фауны. По&nbsp;лесам Алтая бродят лоси, над хребтами летают орлы, а&nbsp;на&nbsp;равнинах пасутся косули. И&nbsp;знаменитые манулы&nbsp;&mdash; тоже обитатели Алтайского края.</p>
+          <div class="marcetplace__futures">
+            <div class="marcetplace__futures-top">
+              <h3 class="marcetplace__futures-title">Umausdt Бессрочный</h3>
+              <div class="marcetplace__futures-counter">
+                <img class="marcetplace__futures-icon" src="./images/peopleIcon.svg" alt="Количество человек">
+                <span class="marcetplace__futures-number">249</span>
+              </div>
+            </div>
+              <div class="marcetplace__futures-subtitle">
+                <div class="marcetplace__futures-rectangle">Сетка фьючерсов</div>
+                <div class="marcetplace__futures-rectangle">Нейтральное</div>
+              </div>
+            <div class="marcetplace__futures-columns">
+              <div class="marcetplace__futures-column-left">
+                <div>
+                  <h4 class="marcetplace__futures-index">ROI</h4>
+                  <p class="marcetplace__futures-meaning-ROI">299.23%</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">PhL (USD)</h4>
+                  <p class="marcetplace__futures-meaning">$299.23</p>
+                </div>
+                <div>
+                  <h4 class="marcetplace__futures-index">Мин. сумма инвестиций</h4>
+                  <p class="marcetplace__futures-meaning">118,39 USDT</p>
+                </div>
+              </div>
+              <div class="marcetplace__futures-column-right">
+                <img class="marcetplace__futures-diagram" src="./images/diagram6.png" alt="Диаграмма">
+                <div class="marcetplace__futures-text-right">
+                  <h4 class="marcetplace__futures-index">Продолжительность</h4>
+                  <p class="marcetplace__futures-meaning">2 дн 18ч 52 мин</p>
+                </div>
+                <button class="marcetplace__futures-button">Создать</button>
+              </div>
+            </div>
           </div>
-        </article>
-        <article class="place">
-          <h2 class="place__title">Зимний Байкал</h2>
-          <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
-          <div class="place__website">
-            <p class="place__url-heading">url</p>
-            <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+        </div>
+        <div class="marcetplace__btns-pages">
+          <button class="marcetplace__btns-left" type="submit">
+            <img class="marcetplace__btns-left-img" src="./images/ArrowLeftButton.svg" alt="Стрелка влево">
+          </button>
+          <div class="marcetplace__btns-page">
+            <a class="marcetplace__btns-link marcetplace__btns-link_active">1</a>
           </div>
-          <div class="place__text">
-            <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро 
-            в&nbsp;мире. Многие также знают, что это самый большой источник пресной воды и&nbsp;одно из&nbsp;красивейших мест в&nbsp;России.</p>
-            <p class="place__paragraph">Конечно, это всё так. Но&nbsp;Байкал ещё идеальное место для соревнований по&nbsp;скийорингу. Это такой вид спорта, когда лыжник привязывает себя 
-              к&nbsp;мотоциклу,&nbsp;и&nbsp;тандем старается развить как можно б&oacute;льшую скорость на&nbsp;льду. В&nbsp;марте 2019 года на&nbsp;фестивале &laquo;Байкальская миля&raquo; был поставлен мировой рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.</p>
+          <div class="marcetplace__btns-page">
+            <a class="marcetplace__btns-link">2</a>
           </div>
-        </article>
-        <article class="place">
-          <h2 class="place__title">Карелия</h2>
-          <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
-          <div class="place__website">
-            <p class="place__url-heading">url</p>
-            <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
+          <div class="marcetplace__btns-page">
+            <a class="marcetplace__btns-link">3</a>
           </div>
-          <div class="place__text">
-            <p class="place__paragraph">Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая&nbsp;тайгу сибирская лиственница не&nbsp;растёт западнее Водлозера. Зато здесь она вымахивает на 30&nbsp;метров&nbsp;&mdash; леса карельских национальных парков из‑за&nbsp;непроходимых болот никогда не&nbsp;знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к&nbsp;живому существу, видевшему солнце&nbsp;раньше,&nbsp;чем увидал его Иван Грозный. В&nbsp;девственном&nbsp;лесу на&nbsp;сотню километров не встретишь тропы. А&nbsp;на&nbsp;редких тропинках деревья в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы&nbsp;все знали, кто тут хозяин.</p>
+          <button class="marcetplace__btns-ellipses" type="submit">...</button>
+          <div class="marcetplace__btns-page">
+            <a class="marcetplace__btns-link">12</a>
           </div>
-        </article>
+          <button class="marcetplace__btns-right" type="submit">
+            <img class="marcetplace__btns-right-img" src="./images/ArrowRightButton.svg" alt="Стрелка вправо">
+          </button>
+        </div>
       </section>
-      <section class="cover">
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-          <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
-          <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы&nbsp;до&nbsp;Байкала на&nbsp;электричках.</p>
-        </a>
+      <section class="video">
+        <div class="video__block">
+          <div class="video__menu">
+            <nav class="video__nav">
+              <a class="video__link video__link_active" href="#" target="_blank">
+                <img class="video__cover" src="./images/cover1.png" alt="Видео">
+              </a>
+              <a class="video__link" href="#" target="_blank">
+                <img class="video__cover" src="./images/cover2.png" alt="Видео">
+              </a>
+              <a class="video__link" href="#" target="_blank">
+                <img class="video__cover" src="./images/cover3.png" alt="Видео">
+              </a>
+              <a class="video__link" href="#" target="_blank">
+                <img class="video__cover" src="./images/cover4.png" alt="Видео">
+              </a>
+            </nav>
+          </div>
+          <img class="video__play" src="./images/ElonMuck.png" alt="Видео">
+          <div class="video__discription">
+            <img class="video__quotes" src="./images/quotes.png" alt="Ковычки">
+            <p class="video__text">
+              Это <span class="span__fontWeight">Новый</span> 
+              Взгляд на Обмен Криптовалютой! В поисках оптимального решения для моих финансов в 
+              <span class="span__fontWeight">криптовалюте</span>, я нашел. Этот сервис обеспечивает 
+              низкие комиссии, надежность и удобство использования. 
+              Здесь крипта становится доступной, простой и
+              <span class="span__fontWeight">захватывающей</span>
+              . Я впечатлен результатами и советую всем поклонникам крипты оценить его возможности!
+            </p>
+            <div class="video__author">
+              <h3 class="video__name">Илон Маск</h3>
+              <h4 class="video__about">предприниматель, инженер, изобретатель и миллиардер</h4>
+            </div>
+          </div>
+        </div>
+        <h2 class="video__title">В центре внимания</h2>
+      </section>
+      <section class="crypto100">
+        <h3 class="crypto100__title">CRYPTO 100</h3>
+        <div class="crypto100__block">
+          <div class="crypto100__blockTop">
+            <div class="crypto100__circle">
+              <img class="crypto100__drop" src="./images/drop.png" alt="Капля">
+            </div>
+            <div class="crypto100__info">
+              <div class="crypto100__infoBlockTitle">
+                <h4 class="crypto100__infoTitle">Lido DAO</h4>
+                <div class="crypto100__infoSubtitle">Ldo</div>
+              </div>
+              <div class="crypto100__info-indicators">
+                <div class="crypto100__info-indicator">
+                  <h4 class="crypto100__info-indicator-title">Цена</h4>
+                  <p class="crypto100__info-indicator-meaning">
+                    <span class="crypto100__info-indicator-number">3.00671862</span> USD
+                  </p>
+                </div>
+                <div class="crypto100__info-indicator">
+                  <h4 class="crypto100__info-indicator-title">Капитализация</h4>
+                  <p class="crypto100__info-indicator-meaning">
+                    <span class="crypto100__info-indicator-number">2.6778</span> USD
+                  </p>
+                </div>
+                <div class="crypto100__info-indicator">
+                  <h4 class="crypto100__info-indicator-title">Категория</h4>
+                  <p class="crypto100__info-indicator-meaning">
+                    Деривативы, DeFi, DAO
+                  </p>
+                </div>
+                <div class="crypto100__info-indicator">
+                  <h4 class="crypto100__info-indicator-title">TVL</h4>
+                  <p class="crypto100__info-indicator-meaning">
+                    <span class="crypto100__info-indicator-number">22.1068</span> USD
+                  </p>
+                </div>
+                <div class="crypto100__info-indicator">
+                  <h4 class="crypto100__info-indicator-title">Рын. кап.</h4>
+                  <p class="crypto100__info-indicator-meaning">
+                    <span class="crypto100__info-indicator-number">0.1120</span>
+                  </p>
+                </div>
+                <div class="crypto100__info-indicator">
+                  <h4 class="crypto100__info-indicator-title">Объем 24ч</h4>
+                  <p class="crypto100__info-indicator-meaning">
+                    <span class="crypto100__info-indicator-number">66.878M</span> USD
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="crypto100__block-text">
+            <p class="crypto100__paragraph">
+              Lido DAO - это децентрализованная автономная организация, 
+              которая предоставляет сервис стейкинга Ethereum 2.0. 
+              Ethereum 2.0 - это обновление блокчейна Ethereum, 
+              редполагающее переход от консенсуса Proof-of-Work (PoW) к Proof-of-Stake (PoS). 
+              Стейкинг в Ethereum 2.0 включает в себя блокирование криптовалюты (ETH) 
+              в смарт-контракте с целью поддержки сети и получения вознаграждения.
+            </p>
+            <p class="crypto100__paragraph">Lido DAO позволяет пользователям ставить 
+              свои ETH в пул, а затем предоставлять им токены под названием "stETH" 
+              в обмен на их участие в стейкинге. Эти токены stETH представляют собой 
+              долю в общем балансе стейкинга и обеспечивают пользователю право на 
+              получение доли в получаемых блокчейн-наградах. Lido DAO управляется 
+              держателями токенов LDO (Lido), которые имеют право голоса по различным 
+              предложениям и изменениям в системе.
+            </p>
+          </div>
+        </div>
+        <div class="crypto100__block-icons">
+          <img class="crypto100__icon" src="./images/icon1.png" alt="Иконка">
+          <img class="crypto100__icon" src="./images/icon2.png" alt="Иконка">
+          <img class="crypto100__icon" src="./images/icon3.png" alt="Иконка">
+          <img class="crypto100__icon" src="./images/icon4.png" alt="Иконка">
+          <img class="crypto100__icon" src="./images/icon5.png" alt="Иконка">
+          <img class="crypto100__icon" src="./images/icon6.png" alt="Иконка">
+          <img class="crypto100__icon" src="./images/icon7.png" alt="Иконка">
+        </div>
+      </section>
+      <section class="logo">
+        <img class="logo__decor_kub" src="./images/kub.png" alt="Куб">
+        <img class="logo__decor_star" src="./images/starBig.png" alt="Звезда">
+        <div class="logo__block">
+          <div class="logo__bandGrey">
+            <h4 class="logo__logoTitle">HUBUS & CO</h4>
+            <img class="logo__logoImg" src="./images/LogoBig.png" alt="Логотип">
+          </div>
+          <div class="logo__bandBlack">
+            <img class="logo__star" src="./images/starBig.png" alt="Звезда">
+            <h4 class="logo__logoSubtitle">META WALLET CLUB</h4>
+            <img class="logo__star" src="./images/starBig.png" alt="Звезда">
+            <h4 class="logo__logoSubtitle">CRYPTO 100</h4>
+            <img class="logo__star" src="./images/starBig.png" alt="Звезда">
+            <h4 class="logo__logoSubtitle">HANGE</h4>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
+      <img class="footer__decor_kub" src="./images/kub.png" alt="Куб">
+      <img class="footer__decor_pink" src="./images/decorFooterPink.png" alt="Декор">
+      <img class="footer__decor_blue" src="./images/decorFooterBlue.png" alt="Декор">
+      <div class="footer__connection">
+        <h2 class="footer__connection-title">Присоединяйтесь к 
+          <span class="footer__connection-title_span">сообществу</span>
+        </h2>
+        <p class="footer__connection-text">
+          Мы готовы услышать вас! Напишите в Telegram или Whats App, чтобы обсудить  
+          сотрудничество, ответить на ваши вопросы или принять ваши предложения
+        </p>
+        <div class="footer__connection-buttons">
+          <button class="footer__connection-button">
+            <img class="footer__connection-icon" src="./images/whatsappButton.svg" alt="Whats App">
+            Whats App
+          </button>
+          <button class="footer__connection-button">
+            <img class="footer__connection-icon" src="./images/telegramButton.svg" alt="Telegram">
+            Telegram
+          </button>
+        </div>
+      </div>
       <nav class="footer__nav">
         <ul class="footer__links">
-          <li><a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a></li>
-          <li><a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a></li>
-          <li><a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a></li>
-          <li><a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a></li>
-          <li><a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a></li>
+          <li><a class="footer__link" href="#" target="_blank">Открыть
+            <span class="footer__link_span"> ЕГРЛЮ</span>
+              </a>
+          </li>
+          <li><a class="footer__link" href="#" target="_blank">Посмотреть
+            <span class="footer__link_span"> Оферту</span>
+              </a>
+          </li>
+        </ul>
+        <ul class="footer__info">
+          <li class="footer__link">ИНН
+            <span class="footer__link_span"> 776865588</span>
+          </li>
+          <li class="footer__link">ОГРН
+            <span class="footer__link_span"> 557 899 755</span>
+          </li>
+        </ul>
+        <ul class="footer__messengers">
+          <li>
+            <a class="footer__link" href="#" target="_blank">
+              <img class="footer__link-icon" src="./images/VK.svg" alt="VK">
+            </a>
+          </li>
+          <li>
+            <a class="footer__link" href="#" target="_blank">
+              <img class="footer__link-icon" src="./images/instagram.svg" alt="instagram">
+            </a>
+          </li>
+          <li>
+            <a class="footer__link" href="#" target="_blank">
+              <img class="footer__link-icon" src="./images/Telegram.svg" alt="Telegram">
+            </a>
+          </li>
         </ul>
       </nav>
-      <p class="footer__copyright">&copy; 2020. Алина Тарнакова</p>
     </footer>
+
+    <div class="hamburgerMenu">
+      <div class="hamburgerMenu__container-overlay"></div>
+      <div class="hamburgerMenu__contaner">
+        <button class="hamburgerMenu__button-close" type="button" aria-label="Закрыть">
+          <img
+            class="hamburgerMenu__button-close-img"
+            src="./images/buttonClose.svg"
+            alt="Закрыть">
+        </button>
+        <nav class="hamburgerMenu__nav">
+          <ul class="hamburgerMenu__links">
+            <li><a class="header__link" href="">Hedge&nbsp;Fund</a></li>
+            <li><img class="header__star" src="./images/Star.svg" alt="Звезда"></li>
+            <li><a class="header__link" href="#" target="_blank">МаркетМейкер</a></li>
+            <li><img class="header__star" src="./images/Star.svg" alt="Звезда"></li>
+            <li><a class="header__link" href="#" target="_blank">Монеты</a></li>
+            <li><img class="header__star" src="./images/Star.svg" alt="Звезда"></li>
+            <li><a class="header__link" href="#" target="_blank">Офисы</a></li>
+          </ul>
+        </nav>
+        <ul class="hamburgerMenu__lang-links">
+          <li>
+            <a class="header__lang-link" href="#">ENG</a>
+          </li>
+          <li>
+            <a class="header__lang-link header__lang-link_active" href="#">RUS</a>
+          </li>
+        </ul>
+      </div>
+    </div> 
   </div> 
 </body>
 </html>

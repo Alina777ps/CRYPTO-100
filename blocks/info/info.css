@@ -1,0 +1,18 @@
+.info {
+    margin: 0;
+    padding: 99px 16% 85px 16%;
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .info {
+        flex-direction: column;
+        padding: 50px 12% 85px 12%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .info {
+        padding: 30px 7% 85px 7%;
+    }
+}

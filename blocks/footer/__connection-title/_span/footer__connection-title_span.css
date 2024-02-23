@@ -1,0 +1,7 @@
+.footer__connection-title_span {
+    background: linear-gradient(90.00deg, #12C2E9,#C471ED,#F64F59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}

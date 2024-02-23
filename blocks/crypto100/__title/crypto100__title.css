@@ -1,0 +1,36 @@
+.crypto100__title {
+    margin: 0 0 30px 0;
+    padding: 0;
+    background: linear-gradient(90.00deg, rgb(18, 194, 233),rgb(196, 113, 237),rgb(246, 79, 89));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 127px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1850px) {
+    .crypto100__title {
+        font-size: 80px;
+        line-height: 100px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .crypto100__title {
+        font-size: 50px;
+        line-height: 80px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .crypto100__title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}

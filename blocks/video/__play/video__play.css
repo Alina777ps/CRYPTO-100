@@ -1,0 +1,36 @@
+.video__play {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1600px) {
+    .video__play {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .video__play {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .video__play {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .video__play {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .video__play {
+        width: 100%;
+    }
+}

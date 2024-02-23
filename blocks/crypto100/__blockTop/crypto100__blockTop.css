@@ -1,0 +1,19 @@
+.crypto100__blockTop {
+    margin: 0 0 40px;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .crypto100__blockTop {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .crypto100__blockTop {
+        flex-direction: column;
+    }
+}

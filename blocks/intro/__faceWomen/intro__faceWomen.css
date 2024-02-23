@@ -1,0 +1,13 @@
+.intro__faceWomen {
+    width: 23.2%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .intro__faceWomen {
+        grid-area: women;
+        width: 100%;
+    }
+}

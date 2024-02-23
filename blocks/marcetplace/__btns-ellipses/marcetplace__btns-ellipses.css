@@ -1,0 +1,14 @@
+.marcetplace__btns-ellipses {
+    width: 18px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", "Arial", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #9399A4;
+    cursor: pointer;
+    border: none;
+    background-color:  rgb(32, 28, 45);
+}

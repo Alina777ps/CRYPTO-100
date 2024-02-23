@@ -1,0 +1,15 @@
+.crypto100__block {
+    box-sizing: border-box;
+    width: 100%;
+    /*height: 694px;*/
+    margin: 0 0 100px;
+    padding: 38px;
+    background-color: #12111E;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .crypto100__block {
+        padding: 20px;
+    }
+}

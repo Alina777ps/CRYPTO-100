@@ -1,0 +1,25 @@
+.header__lang-line {
+    height: 30px;
+    border-right: 1px solid rgb(129, 116, 153);
+    margin: 0;
+    margin-right: 9.5px;
+    padding: 0;
+    padding-right: 10.5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1500px) {
+    .header__lang-line {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .header__lang-line {
+        height: 15px;
+        margin-right: 6px;
+        padding-right: 6px;
+    }
+}

@@ -1,0 +1,15 @@
+.footer__connection-buttons {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__connection-buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

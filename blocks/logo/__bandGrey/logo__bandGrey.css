@@ -1,0 +1,22 @@
+.logo__bandGrey {
+    margin: 200px 0 0;
+    padding: 0;
+    transform: rotate(-9.09deg);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 97px;
+}
+
+@media screen and (max-width: 1400px) {
+    .logo__bandGrey {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .logo__bandGrey {
+        gap: 40px;
+        margin-top: 20px;
+    }
+}

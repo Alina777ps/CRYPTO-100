@@ -1,0 +1,21 @@
+.info__block-img {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 508.64px;
+    height: 509.48px;
+}
+
+@media screen and (max-width: 1900px) {
+    .info__block-img {
+        width: 47%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .info__block-img {
+        margin-top: 100px;
+        align-self: center;
+    }
+}

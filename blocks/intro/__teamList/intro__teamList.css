@@ -1,0 +1,4 @@
+.intro__teamList {
+    display: flex;
+    justify-content: space-between;
+}

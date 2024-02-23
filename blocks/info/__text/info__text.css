@@ -1,0 +1,24 @@
+.info__text {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 12.26px;
+    font-weight: 500;
+    line-height: 18.39px;
+    letter-spacing: 0px;
+}
+
+@media screen and (max-width: 1600px) {
+    .info__text {
+        font-size: 9px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .info__text {
+        font-size: 5px;
+        line-height: 7px;
+    }
+}

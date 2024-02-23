@@ -1,0 +1,32 @@
+.crypto100__infoSubtitle {
+    width: 73.44px;
+    height: 44.92px;
+    border-radius: 11.23px;
+    background-color: #0A1233;
+    color: #FFFFFF;
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 18.72px;
+    font-weight: 500;
+    line-height: 23.77px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .crypto100__infoSubtitle {
+        width: 50px;
+        height: 30px;
+        font-size: 9px;
+        line-height: 13px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .crypto100__infoSubtitle {
+        width: 40px;
+        height: 23px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+}

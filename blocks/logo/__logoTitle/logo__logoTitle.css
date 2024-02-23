@@ -1,0 +1,46 @@
+.logo__logoTitle {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 280px;
+    letter-spacing: 1%;
+    text-shadow: 0 0 25px #FFFFFF;
+}
+
+@media screen and (max-width: 1750px) {
+    .logo__logoTitle {
+        font-size: 150px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .logo__logoTitle {
+        font-size: 100px;
+        line-height: 180px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .logo__logoTitle {
+        font-size: 80px;
+        line-height: 140px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .logo__logoTitle {
+        font-size: 50px;
+        line-height: 100px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo__logoTitle {
+        font-size: 25px;
+        line-height: 50px;
+    }
+}

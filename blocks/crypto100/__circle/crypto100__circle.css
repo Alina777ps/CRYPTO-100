@@ -1,0 +1,45 @@
+.crypto100__circle {
+    margin: 0;
+    padding: 0;
+    width: 277px;
+    height: 299px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1700px) {
+    .crypto100__circle {
+        width: 250px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .crypto100__circle {
+        width: 200px;
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .crypto100__circle {
+        width: 150px;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .crypto100__circle {
+        width: 100px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .crypto100__circle {
+        align-self: center;
+    }
+}

@@ -1,13 +1,21 @@
 .page__container {
-    max-width: 1280px;
+    max-width: 1920px;
     min-width: 320px;
+    min-height: 100vh;
     margin: 0 auto;
     padding: 0;
-    background-color:  #2A2C2F;
-    font-family: "Inter", "Arial", "sans-serif";
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(32, 28, 45);
+    font-family: "Futura", "Arial", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; 
-
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    position: relative;
+    /*z-index: -2;*/
 }
 
 @media screen and (max-width: 1024px) {

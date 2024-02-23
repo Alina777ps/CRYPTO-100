@@ -1,0 +1,25 @@
+.crypto100__drop {
+    width: 131.42px;
+    height: 181.41px;
+}
+
+@media screen and (max-width: 1400px) {
+    .crypto100__drop {
+        width: 100px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .crypto100__drop {
+        width: 70px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .crypto100__drop {
+        width: 45px;
+        height: 60px;
+    }
+}

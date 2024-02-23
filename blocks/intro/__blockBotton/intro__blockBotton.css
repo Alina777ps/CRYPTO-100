@@ -1,0 +1,12 @@
+.intro__blockBotton {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .intro__blockBotton {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+}

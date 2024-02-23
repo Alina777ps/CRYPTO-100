@@ -1,0 +1,30 @@
+.header__links {
+    margin: 0;
+    margin-right: 135.5px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 30.5px;
+}
+
+@media screen and (max-width: 1700px) {
+    .header__links {
+        margin-right: 7%;
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header__links {
+        gap: 0.6em;
+        margin-right: 4%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__links {
+        display: none;
+    }
+}

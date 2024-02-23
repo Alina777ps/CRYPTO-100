@@ -1,0 +1,38 @@
+.crypto100__info-indicator-title {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.18px;
+    color: #868B93;
+}
+
+@media screen and (max-width: 1700px) {
+    .crypto100__info-indicator-title {
+        font-size: 18px;
+        line-height: 22x;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .crypto100__info-indicator-title {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .crypto100__info-indicator-title {
+        font-size: 11px;
+        line-height: 13px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .crypto100__info-indicator-title {
+        font-size: 8px;
+        line-height: 10px;
+    }
+}

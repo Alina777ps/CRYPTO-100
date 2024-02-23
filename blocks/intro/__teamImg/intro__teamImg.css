@@ -1,0 +1,10 @@
+.intro__teamImg {
+    max-height: 50px;
+ 
+}
+
+@media screen and (max-width: 950px) {
+    .intro__teamImg {
+        max-height: 30px;
+    }
+}

@@ -1,0 +1,49 @@
+.intro__creatCoinButton_connection {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    width: 42%;
+    height: 73px;
+    border-radius: 100px;
+    background: linear-gradient(90.00deg, 
+        rgb(129, 192, 223),
+        rgb(219, 119, 253) 100%),
+        linear-gradient(180.90deg, 
+        rgb(255, 208, 121) -50.578%,
+        rgb(255, 232, 191) 18.861%
+        ,rgb(255, 208, 121) 85.466%);
+    cursor: pointer;
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1500px) {
+    .intro__creatCoinButton_connection {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .intro__creatCoinButton_connection {
+        font-size: 15px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .intro__creatCoinButton_connection {
+        font-size: 7px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro__creatCoinButton_connection {
+        font-size: 9px;
+        height: 30px;
+    }
+}

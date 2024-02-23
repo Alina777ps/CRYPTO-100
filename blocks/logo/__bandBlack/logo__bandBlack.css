@@ -1,0 +1,23 @@
+.logo__bandBlack {
+    width: 100%;
+    margin: 0 0 100px;
+    padding: 0;
+    background: #000000;
+    transform: rotate(-9.09deg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+@media screen and (max-width: 1400px) {
+    .logo__bandBlack {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .logo__bandBlack {
+        gap: 15px;
+    }
+}

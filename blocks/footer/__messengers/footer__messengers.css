@@ -1,0 +1,23 @@
+.footer__messengers {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+
+@media screen and (max-width: 900px) {
+    .footer__messengers {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__messengers {
+        justify-content: start;
+    }
+}
+
+

@@ -1,0 +1,23 @@
+.video__about {
+    margin: 0;
+    padding: 0;
+    color: rgb(204, 204, 204);
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: 0px;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 1600px) {
+    .video__about {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .video__about {
+        font-size: 5px;
+    }
+}

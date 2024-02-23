@@ -1,0 +1,24 @@
+.cryptoClub__video {
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+}
+
+@media screen and (max-width: 1450px) {
+    .cryptoClub__video {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .cryptoClub__video {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cryptoClub__video {
+        width: 290px;
+    }
+}

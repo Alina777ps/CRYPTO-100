@@ -1,0 +1,13 @@
+.footer__decor_kub {
+    width: 7.2%;
+    position: absolute;
+    top: 4%;
+    left: 13%;
+}
+
+@media screen and (max-width: 1150px) {
+    .footer__decor_kub {
+        top: 7%;
+        left: 8%;
+    }
+}

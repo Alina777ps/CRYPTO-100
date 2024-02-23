@@ -1,0 +1,25 @@
+.info__coin {
+    width: 10%;
+    max-width: 49px;
+    height: auto;
+}
+/*
+@media screen and (max-width: 1900px) {
+    .info__coin {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .info__coin {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .info__coin {
+        width: 10%;
+        height: 10%;
+    }
+}*/

@@ -1,0 +1,16 @@
+.crypto100__block-icons {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 550px) {
+    .crypto100__block-icons {
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       row-gap: 10px;
+    }
+}

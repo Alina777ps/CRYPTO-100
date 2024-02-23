@@ -1,0 +1,33 @@
+.crypto100__icon {
+    width: 152px;
+    height: 152px;
+
+}
+
+@media screen and (max-width: 1700px) {
+    .crypto100__icon {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .crypto100__icon {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .crypto100__icon {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .crypto100__icon {
+        width: 50px;
+        height: 50px;
+    }
+}

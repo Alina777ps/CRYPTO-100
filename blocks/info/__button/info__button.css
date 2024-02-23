@@ -1,0 +1,25 @@
+.info__button {
+    margin: 0;
+    margin-bottom: 42px;
+    padding: 0;
+    width: 258px;
+    height: 46px;
+    border-radius: 400px;
+    border: none;
+    box-shadow: 0px 4px 20px 0px rgba(87, 142, 233, 0.4);
+    background: linear-gradient(90.00deg, rgb(252, 0, 255),rgb(0, 219, 222) 100%);
+    color: rgb(255, 255, 255);
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+    .info__button {
+        font-size: 12px;
+    }
+}

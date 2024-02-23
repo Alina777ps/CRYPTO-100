@@ -1,0 +1,23 @@
+.form__fieldset {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .form__fieldset {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form__fieldset {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+}

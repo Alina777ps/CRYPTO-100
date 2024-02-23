@@ -1,0 +1,22 @@
+.intro__creatCoinTitle {
+    margin: 0;
+    padding: 0;
+    font-family: "Futura", "Arial", sans-serif;
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1000px) {
+    .intro__creatCoinTitle {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .intro__creatCoinTitle {
+        font-size: 18px;
+    }
+}
+

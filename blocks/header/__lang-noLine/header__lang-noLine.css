@@ -1,0 +1,9 @@
+.header__lang-noLine {
+    height: 30px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

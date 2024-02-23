@@ -1,0 +1,28 @@
+.footer__connection-button {
+    width: 212px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    border-radius: 100px;
+    background: radial-gradient(107.00% 100.00% at 50% 0%,rgb(49, 228, 250),rgb(47, 108, 255) 56.5%,rgba(223, 29, 255, 0.89) 100%);
+    color: rgb(255, 255, 255);
+    font-family: "Futura", "Arial", "sans-serif";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+    .footer__connection-button {
+        width: 150px;
+        height: 30px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+}

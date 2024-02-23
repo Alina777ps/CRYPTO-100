@@ -1,0 +1,33 @@
+.form__frame {
+    height: 40px;
+    margin: 0;
+    padding: 10px;
+    background: 
+        linear-gradient(rgb(32, 28, 45) 0 0) padding-box, /*this is background*/
+        linear-gradient(to right, #FC00FF, #00DBDE) border-box;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+     
+}
+
+.form__frame:hover {
+    box-shadow: 0px 0px 3px gray;
+  }
+
+  @media screen and (max-width: 1600px) {
+    .form__frame {
+        height: 30px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .form__frame {
+        height: 25px;
+    }
+}

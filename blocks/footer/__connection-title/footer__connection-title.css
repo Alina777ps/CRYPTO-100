@@ -1,0 +1,30 @@
+.footer__connection-title {
+    margin: 0 0 34px;
+    padding: 0;
+    font-family: "Futura", "Arial", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1800px) {
+    .footer__connection-title {
+        font-size: 38px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .footer__connection-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .footer__connection-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
