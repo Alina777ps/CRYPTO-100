@@ -3,7 +3,7 @@
   font-style:  normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/futura-medium.ttf") format("truetype");
+  src: url("../fonts/FUTURA65MEDIUM.TTF") format("truetype");
 }
 
 @font-face { 
@@ -11,8 +11,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/FuturaBold.ttf")format("truetype"),
-  url("../fonts/FuturaBold.woff") format("woff");
+  src: url("../fonts/FUTURA75BOLD.TTF")format("truetype");
   
 }
 
