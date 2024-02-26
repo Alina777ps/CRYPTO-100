@@ -1,26 +1,26 @@
 .logo__logoImg {
-    width: 159.62px;
-    height: 152.4px;
+    width: 232px;
+    height: 232px;
 }
 
 @media screen and (max-width: 1400px) {
     .logo__logoImg {
-        width: 120px;
-        height: 120px;
+        width: 200px;
+        height: 200px;
     }
 }
 
 @media screen and (max-width: 1050px) {
     .logo__logoImg {
-        width: 80px;
-        height: 80px;
+        width: 150px;
+        height: 150px;
     }
 }
 
 @media screen and (max-width: 850px) {
     .logo__logoImg {
-        width: 40px;
-        height: 40px;
+        width: 100px;
+        height: 100px;
     }
 }
 

@@ -64,7 +64,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__text/_span/intro__text_span.css);
 @import url(../blocks/intro/__coinsBlock/intro__coinsBlock.css);
-@import url(../blocks/intro/__coins/intro__coins.css);
+@import url(../blocks/intro/__coin/intro__coin.css);
 @import url(../blocks/intro/__faceWomen/intro__faceWomen.css);
 @import url(../blocks/intro/__blockBitcoin/intro__blockBitcoin.css);
 @import url(../blocks/intro/__bitcoinBlue/intro__bitcoinBlue.css);
