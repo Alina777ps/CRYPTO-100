@@ -1,3 +1,5 @@
 .span__fontWeight {
     font-weight: 700;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
 }

@@ -32,6 +32,6 @@
 
 @media screen and (max-width: 550px) {
     .info__title {
-        font-size: 20px;
+        text-align: center;
     }
 }

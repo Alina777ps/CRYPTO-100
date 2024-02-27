@@ -2,3 +2,10 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 950px) {
+    .intro__teamList {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+}
