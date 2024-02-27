@@ -11,4 +11,5 @@
     background: linear-gradient(90.00deg, rgb(252, 0, 255),rgb(0, 219, 222) 100%),rgb(44, 49, 56);
     border-radius: 6px;
     cursor: pointer;
+    border: none;
 }

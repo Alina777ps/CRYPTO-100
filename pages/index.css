@@ -151,8 +151,8 @@
 @import url(../blocks/video/__menu/video__menu.css);
 @import url(../blocks/video/__nav/video__nav.css);
 @import url(../blocks/video/__link/video__link.css);
-@import url(../blocks/video/__link/_active/video__link_active.css);
 @import url(../blocks/video/__cover/video__cover.css);
+@import url(../blocks/video/__cover/_active/video__cover_active.css);
 @import url(../blocks/video/__play/video__play.css);
 @import url(../blocks/video/__discription/video__discription.css);
 @import url(../blocks/video/__quotes/video__quotes.css);

@@ -14,12 +14,13 @@
 
 @media screen and (max-width: 1000px) {
     .form__label {
-        font-size: 7px;
+        font-size: 8px;
     }
 }
 
+
 @media screen and (max-width: 750px) {
-    .orm__label {
-        font-size: 5px;
+    .form__label {
+        font-size: 12px;
     }
 }

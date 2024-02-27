@@ -1,0 +1,7 @@
+.video__cover_active {
+    background: 
+        linear-gradient(#12111E 0 0) padding-box, /*this is background*/
+        linear-gradient(to right, #FC00FF, #00DBDE) border-box;
+    border: 3px solid transparent;
+    border-radius: 50%;
+}
